@@ -5,7 +5,7 @@ import sh
 
 class PngRecipe(Recipe):
     version = '1.6.24'
-    url = 'http://vorboss.dl.sourceforge.net/project/libpng/libpng16/1.6.24/libpng-1.6.24.tar.gz'
+    url = 'http://downloads.sourceforge.net/sourceforge/libpng/libpng-1.6.26.tar.gz'
     depends = ["python"]
     library = '.libs/libpng16.a'
 
